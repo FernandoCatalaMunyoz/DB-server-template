@@ -25,3 +25,7 @@ $ "type": "module"
 ```bash
 $ git init
 ```
+
+```bash
+$ npm i mongoose
+```
