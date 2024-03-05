@@ -8,8 +8,10 @@ const app = express();
 app.use(express.json()); // express.json() para  poder trabajar con el body
 const PORT = process.env.PORT || 4001;
 
+//RUTA QUE EMVIA A ROUTES.JS
 app.use("/api", router); // /api/auth prefijo que es igual en todas las rutas, en este caso de authController
 
+//CONEXION BASE DE DATOS
 dbConection()
   .then(() => {
     console.log("Database connected");
