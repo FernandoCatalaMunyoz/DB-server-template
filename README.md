@@ -16,6 +16,8 @@ $ npm nodemon -D
 $ npm i dotenv -E
 ```
 
+## Añadimos esto para usar import/export
+
 ```json
 $ "type": "module"
 ```
