@@ -24,7 +24,7 @@ const UserSchema = new Schema(
   },
   {
     timestamps: true, //campos created at y updated at
-    versionKey: false,
+    versionKey: false, // ponemos false para queno salga
   }
 );
 //transformar el Schema en modelo

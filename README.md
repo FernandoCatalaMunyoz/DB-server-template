@@ -29,3 +29,19 @@ $ git init
 ```bash
 $ npm i mongoose
 ```
+
+```bash
+$ npm i bcrypt
+```
+
+```txt
+ creamos modelo
+```
+
+```txt
+ creamos controlador
+```
+
+```txt
+ creamos ruta
+```
